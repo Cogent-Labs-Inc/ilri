@@ -5,18 +5,18 @@
   "progress_percent": 48,
   "key_success": "They signed the co-funding agreement with the regional livestock policy platform.",
   "key_challenge": "Two of four survey vehicles were down for almost a month, disrupting the household survey schedule.",
-  "support_needed": "Help from legal to review the co-funding agreement wording before countersigning.",
+  "support_needed": "Help from legal to review the co-funding agreement wording before countersignature.",
   "draft_flags": [],
   "field_flags": {
     "quarter": [
-      "YEAR_NOT_STATED"
+      "No year was stated; confirm the year before approval."
     ],
     "traffic_light": [
-      "VOCAB_NORMALISED"
+      "The speaker said \"yellow\", which is not in the controlled vocabulary. Amber is only a suggestion; confirm or change it."
     ],
     "progress_percent": [
-      "APPROXIMATE",
-      "RANGE_GIVEN"
+      "The speaker described this figure as approximate.",
+      "The speaker gave a range before committing to this figure."
     ]
   }
 }

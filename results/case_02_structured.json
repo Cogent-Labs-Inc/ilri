@@ -4,16 +4,15 @@
   "traffic_light": "Amber",
   "progress_percent": 60,
   "key_success": "Finalised the multi-country trial protocol for the new drought-tolerant forage varieties; all four partner countries signed off.",
-  "key_challenge": "Staff turnover in the trial coordination team slowed down site preparation in Ethiopia.",
+  "key_challenge": "Staff turnover in the trial coordination team slowed site preparation in Ethiopia.",
   "support_needed": null,
   "draft_flags": [],
   "field_flags": {
     "quarter": [
-      "YEAR_NOT_STATED"
+      "No year was stated; confirm the year before approval."
     ],
     "progress_percent": [
-      "APPROXIMATE",
-      "CONVERTED_FROM_WORDS"
+      "The speaker described this figure as approximate."
     ]
   }
 }

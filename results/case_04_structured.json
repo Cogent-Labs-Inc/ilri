@@ -4,15 +4,15 @@
   "traffic_light": null,
   "progress_percent": 85,
   "key_success": "Migrating the legacy SharePoint list structure to the new schema without any data loss.",
-  "key_challenge": "Timely sign-off from the information security team on the new data classification policy is delaying dependent workstreams.",
+  "key_challenge": "Getting timely sign-off from information security on the new data classification policy.",
   "support_needed": null,
   "draft_flags": [],
   "field_flags": {
     "quarter": [
-      "YEAR_NOT_STATED"
+      "No year was stated; confirm the year before approval."
     ],
     "traffic_light": [
-      "NOT_STATED"
+      "Traffic light was not stated by the speaker."
     ]
   }
 }

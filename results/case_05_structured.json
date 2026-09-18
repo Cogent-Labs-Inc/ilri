@@ -3,20 +3,20 @@
   "quarter": "Q2 2026",
   "traffic_light": "Amber",
   "progress_percent": 70,
-  "key_success": "The regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel.",
-  "key_challenge": "There is a six-week backlog in surveillance data entry at two of four field sites, affecting dashboard freshness.",
-  "support_needed": "One additional short-term data entry contractor is needed, ideally within the next month, to clear the backlog.",
+  "key_success": "Our regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel.",
+  "key_challenge": "There’s a six-week backlog in surveillance data entry at two field sites, affecting dashboard freshness.",
+  "support_needed": "One additional short-term data entry contractor, ideally within the next month, to clear the backlog.",
   "draft_flags": [],
   "field_flags": {
     "quarter": [
-      "SELF_CORRECTED"
+      "The speaker corrected themselves; the earlier value was \"Q3\"."
     ],
     "traffic_light": [
-      "SELF_CORRECTED"
+      "The speaker corrected themselves; the earlier value was \"green\"."
     ],
     "progress_percent": [
-      "APPROXIMATE",
-      "SELF_CORRECTED"
+      "The speaker described this figure as approximate.",
+      "The speaker corrected themselves; the earlier value was \"ninety percent\"."
     ]
   }
 }

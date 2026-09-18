@@ -50,4 +50,4 @@ Persistence (in-memory only) and rate limiting/request queuing aren't built eith
 
 ## Dependencies, cost and tests
 
-Five runtime packages (`pydantic`, `httpx`, `rapidfuzz`, `python-decouple`, `streamlit`); `pytest` dev-only. Two paid calls per update, uncapped. `tests/` has 98 offline tests; `run_samples.py` writes `{case}_structured.json` (schema + flag codes) and `{case}_field_wise.json` (full detail) per case. See [Engineering Notes](docs/ENGINEERING_NOTES.md).
+Five runtime packages (`pydantic`, `httpx`, `rapidfuzz`, `python-decouple`, `streamlit`); `pytest` dev-only. Two paid calls per update, uncapped. `tests/` has 98 offline tests; `run_samples.py` writes `{case}_structured.json` (schema + flag messages) and `{case}_field_wise.json` (full detail) per case. See [Engineering Notes](docs/ENGINEERING_NOTES.md).

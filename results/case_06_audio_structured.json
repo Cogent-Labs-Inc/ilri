@@ -4,24 +4,24 @@
   "traffic_light": "Amber",
   "progress_percent": 64,
   "key_success": "Partner trainings were completed in four countries.",
-  "key_challenge": "Delayed receipt of data from two country teams.",
+  "key_challenge": "Delay in receiving data from two country teams.",
   "support_needed": "Support from the MEL team to improve report tracking.",
   "draft_flags": [],
   "field_flags": {
     "traffic_light": [
-      "VOCAB_NORMALISED"
+      "The speaker said \"orange\", which is not in the controlled vocabulary. Amber is only a suggestion; confirm or change it."
     ],
     "progress_percent": [
-      "APPROXIMATE"
+      "The speaker described this figure as approximate."
     ],
     "key_success": [
-      "MACHINE_TRANSLATED"
+      "Translated to English by the AI; verify it against the speaker's original words."
     ],
     "key_challenge": [
-      "MACHINE_TRANSLATED"
+      "Translated to English by the AI; verify it against the speaker's original words."
     ],
     "support_needed": [
-      "MACHINE_TRANSLATED"
+      "Translated to English by the AI; verify it against the speaker's original words."
     ]
   }
 }

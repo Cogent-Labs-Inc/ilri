@@ -40,7 +40,7 @@
         "value": 85,
         "candidates": [],
         "flags": [],
-        "evidence_quote": "We're sitting at eighty-five percent complete against our roadmap for this quarter, which I'm pleased with.",
+        "evidence_quote": "We're sitting at eighty-five percent complete against our roadmap for this quarter",
         "original_text": null
       },
       "key_success": {
@@ -48,15 +48,15 @@
         "value": "Migrating the legacy SharePoint list structure to the new schema without any data loss.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "Our key success was migrating the legacy SharePoint list structure to the new schema without any data loss - that was a genuinely tricky piece of work and the team pulled it off cleanly.",
+        "evidence_quote": "Our key success was migrating the legacy SharePoint list structure to the new schema without any data loss",
         "original_text": null
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "Timely sign-off from the information security team on the new data classification policy is delaying dependent workstreams.",
+        "value": "Getting timely sign-off from information security on the new data classification policy.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "The main challenge has been getting timely sign-off from the information security team on the new data classification policy - we've been waiting five weeks now and it's starting to hold up two dependent workstreams.",
+        "evidence_quote": "The main challenge has been getting timely sign-off from the information security team on the new data classification policy",
         "original_text": null
       },
       "support_needed": {
@@ -64,7 +64,7 @@
         "value": null,
         "candidates": [],
         "flags": [],
-        "evidence_quote": "On support, at this stage we don't need anything additional from corporate - we're managing the escalation ourselves.",
+        "evidence_quote": "we don't need anything additional from corporate",
         "original_text": null
       }
     },

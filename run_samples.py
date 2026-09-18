@@ -55,20 +55,20 @@ def find_mismatches(draft, expected):
 
 
 def structured_output(draft):
-    """The Quarterly_Updates schema shape from the brief, plus flag codes - a value that needs
-    confirming (an off-vocabulary colour mapped to the controlled vocabulary, a range never
-    committed to one number, ...) must stay visibly flagged even in the "just the schema" view,
-    not just in {case_id}_field_wise.json - otherwise this file alone reads as false confidence.
-    Unresolved fields are null. See field_wise for full status/evidence detail per field."""
+    """The Quarterly_Updates schema shape from the brief, plus each flag's human-readable message -
+    a value that needs confirming (an off-vocabulary colour mapped to the controlled vocabulary, a
+    range never committed to one number, ...) must stay visibly flagged even in the "just the
+    schema" view, not just in {case_id}_field_wise.json - otherwise this file alone reads as false
+    confidence. Unresolved fields are null. See field_wise for full status/evidence detail per field."""
     field_flags = {
-        schema_field: sorted(code.value for code in draft.fields[schema_field].flag_codes)
+        schema_field: [flag.message for flag in draft.fields[schema_field].flags]
         for schema_field in SchemaField
-        if schema_field in draft.fields and draft.fields[schema_field].flag_codes
+        if schema_field in draft.fields and draft.fields[schema_field].flags
     }
     return {
         "verdict": str(draft.verdict),
         **{schema_field: draft.fields[schema_field].value if schema_field in draft.fields else None for schema_field in SchemaField},
-        "draft_flags": sorted(flag.code.value for flag in draft.flags),
+        "draft_flags": [flag.message for flag in draft.flags],
         "field_flags": field_flags,
     }
 
