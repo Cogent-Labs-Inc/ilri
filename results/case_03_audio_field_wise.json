@@ -56,23 +56,23 @@
       },
       "key_success": {
         "status": "EXTRACTED",
-        "value": "They signed a co-funding agreement with the Regional Livestock Policy Platform after eight months of negotiations.",
+        "value": "They signed the co-funding agreement with the Regional Livestock Policy Platform after eight months of negotiations.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "we still managed to, uh, to, to sign the co-funding agreement with the Regional Livestock Policy Platform. So that's actually a pretty big deal for us. Uh, took us like eight months of negotiations. So I'll definitely count that as a success, definitely.",
+        "evidence_quote": "we still managed to, uh, to, to sign the co-funding agreement with the Regional Livestock Policy Platform. So that's actually a pretty big deal for us. Uh, took us like eight months of negotiations.",
         "original_text": null
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "Their biggest challenge was vehicle fleet problems that delayed the household survey schedule.",
+        "value": "Two of four survey vehicles were down for almost a month, disrupting the household survey schedule in Rift Valley sites.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "the biggest headache this quarter, honestly, was the vehicle fleet issue. We had two out of our four survey vehicles down for almost a month, mechanical problems, and that really messed up with our household survey schedule in the Rift Valley sites. So that's, that's probably the main thing I want flagged as a, as a challenge.",
+        "evidence_quote": "we had two out of our four survey vehicles down for almost a month, mechanical problems, and that really messed up with our household survey schedule in the Rift Valley sites",
         "original_text": null
       },
       "support_needed": {
         "status": "EXTRACTED",
-        "value": "They need legal help reviewing the co-funding agreement wording before countersigning, urgently.",
+        "value": "Help from legal reviewing the co-funding agreement wording before countersign, urgently.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "we really could use some help from legal on reviewing the co-funding agreement wording before we countersign. And that's actually kind of urgent.",

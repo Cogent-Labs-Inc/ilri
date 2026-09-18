@@ -46,17 +46,12 @@
             "blocking": false
           },
           {
-            "code": "RANGE_GIVEN",
-            "message": "The speaker gave a range before committing to this figure.",
-            "blocking": false
-          },
-          {
             "code": "SELF_CORRECTED",
             "message": "The speaker corrected themselves; the earlier value was \"ninety percent\".",
             "blocking": false
           }
         ],
-        "evidence_quote": "realistically it's more like seventy percent, maybe seventy-two. Let's say seventy.",
+        "evidence_quote": "Let's say seventy.",
         "original_text": null
       },
       "key_success": {
@@ -64,23 +59,23 @@
         "value": "The regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "our regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel, that's confirmed and done.",
+        "evidence_quote": "our regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel",
         "original_text": null
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "There is about a six-week backlog in surveillance data entry from two of four field sites, affecting dashboard freshness.",
+        "value": "There is a six-week backlog in surveillance data entry at two of four field sites.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "we've got a backlog of about six weeks in surveillance data entry from two of our four field sites, which is affecting how current our risk dashboards are.",
+        "evidence_quote": "we've got a backlog of about six weeks in surveillance data entry from two of our four field sites",
         "original_text": null
       },
       "support_needed": {
         "status": "EXTRACTED",
-        "value": "One additional short-term data entry contractor, ideally within the next month, to clear the backlog.",
+        "value": "One additional short-term data entry contractor, ideally within the next month.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "we need one additional short-term data entry contractor, ideally within the next month, to clear the backlog - that's the main ask.",
+        "evidence_quote": "we need one additional short-term data entry contractor, ideally within the next month",
         "original_text": null
       }
     },

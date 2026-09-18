@@ -2,7 +2,7 @@
   "mismatches": [],
   "draft": {
     "verdict": "NEEDS_ATTENTION",
-    "transcript": "Bonjour, ici Jean-Baptiste Nkurunziza, directeur de la Direction de la résilience et des systèmes pastoraux pour la mise à jour du deuxième temestre 2026. La statue globale est orange, nous avons réalisé environ 64% des activités prévues. Notre principal succès est que les formations de partenaires ont été achevées dans quatre pays. Le principal défi est le retard dans la réception des données de deux équipes pays. Nous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports. Voilà, c'est tout pour le septemestre. Merci beaucoup.",
+    "transcript": "Bonjour, ici Jean-Baptiste Nkurunziza, directeur de la Direction de la Résilience et des Systèmes Pastoraux, pour la mise à jour du deuxième trimestre 2026.\nLe statut global est orange. Nous avons réalisé environ 64 pour cent des activités prévues.\nNotre principal succès est que les formations des partenaires ont été achevées dans quatre pays.\nLe principal défi est le retard dans la réception des données de deux équipes pays.\nNous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports.\nVoilà, c'est tout pour ce trimestre.",
     "detected_language": "fr",
     "rejection_reason": null,
     "rejection_message": null,
@@ -12,7 +12,7 @@
         "value": "Q2 2026",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "la mise à jour du deuxième temestre 2026",
+        "evidence_quote": "pour la mise à jour du deuxième trimestre 2026",
         "original_text": null
       },
       "traffic_light": {
@@ -26,7 +26,7 @@
             "blocking": true
           }
         ],
-        "evidence_quote": "La statue globale est orange",
+        "evidence_quote": "Le statut global est orange.",
         "original_text": null
       },
       "progress_percent": {
@@ -40,7 +40,7 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "nous avons réalisé environ 64% des activités prévues",
+        "evidence_quote": "Nous avons réalisé environ 64 pour cent des activités prévues.",
         "original_text": null
       },
       "key_success": {
@@ -54,12 +54,12 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "Notre principal succès est que les formations de partenaires ont été achevées dans quatre pays.",
-        "original_text": "Notre principal succès est que les formations de partenaires ont été achevées dans quatre pays."
+        "evidence_quote": "Notre principal succès est que les formations des partenaires ont été achevées dans quatre pays.",
+        "original_text": "les formations des partenaires ont été achevées dans quatre pays"
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "Delay in receiving data from two country teams.",
+        "value": "Delayed receipt of data from two country teams.",
         "candidates": [],
         "flags": [
           {
@@ -69,7 +69,7 @@
           }
         ],
         "evidence_quote": "Le principal défi est le retard dans la réception des données de deux équipes pays.",
-        "original_text": "Le principal défi est le retard dans la réception des données de deux équipes pays."
+        "original_text": "le retard dans la réception des données de deux équipes pays"
       },
       "support_needed": {
         "status": "EXTRACTED",
@@ -83,7 +83,7 @@
           }
         ],
         "evidence_quote": "Nous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports.",
-        "original_text": "Nous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports."
+        "original_text": "l'appui de l'équipe MEL pour améliorer le suivi des rapports"
       }
     },
     "flags": []

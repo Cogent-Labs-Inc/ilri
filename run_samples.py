@@ -13,6 +13,7 @@ from pathlib import Path
 
 from voice_capture.constants import NARRATIVE_FIELDS
 from voice_capture.drafting import create_draft
+from voice_capture.enums import SchemaField
 
 
 DATASET_DIR = Path(__file__).parent / "data" / "datapack"
@@ -53,6 +54,15 @@ def find_mismatches(draft, expected):
     return mismatches
 
 
+def structured_output(draft):
+    """Just the Quarterly_Updates schema shape from the brief - no status/flags/evidence detail,
+    unresolved fields are null. See {case_id}_field_wise.json for what backs each value and why."""
+    return {
+        "verdict": str(draft.verdict),
+        **{schema_field: draft.fields[schema_field].value if schema_field in draft.fields else None for schema_field in SchemaField},
+    }
+
+
 def outcome_signature(draft):
     """Status and value per field (status only for free-text fields), for comparing repeated runs."""
     signature = {"verdict": f"{draft.verdict}:{draft.rejection_reason or ''}"}
@@ -76,8 +86,11 @@ def main():
         draft = run_case(case)
         mismatches = find_mismatches(draft, case.get("expect", {}))
         passed_cases += not mismatches
-        result_file = RESULTS_DIR / f"{case['id']}.json"
-        result_file.write_text(json.dumps({"mismatches": mismatches, "draft": draft.model_dump(mode="json")}, indent=2, ensure_ascii=False))
+        field_wise_file = RESULTS_DIR / f"{case['id']}_field_wise.json"
+        field_wise_file.write_text(json.dumps({"mismatches": mismatches, "draft": draft.model_dump(mode="json")}, indent=2, ensure_ascii=False))
+
+        structured_file = RESULTS_DIR / f"{case['id']}_structured.json"
+        structured_file.write_text(json.dumps(structured_output(draft), indent=2, ensure_ascii=False))
         print(f"{'FAIL' if mismatches else 'PASS'} {case['id']}: {draft.verdict}", *(f"\n    {mismatch}" for mismatch in mismatches))
 
         if arguments.runs > 1 and case["input"]["type"] == "transcript":

@@ -12,7 +12,7 @@
         "value": "Q2 2026",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "Quarter 2, 2026",
+        "evidence_quote": "with my update for Quarter 2, 2026.",
         "original_text": null
       },
       "traffic_light": {
@@ -20,14 +20,20 @@
         "value": "Green",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "Overall status: green",
+        "evidence_quote": "Overall status: green.",
         "original_text": null
       },
       "progress_percent": {
         "status": "EXTRACTED",
         "value": 78,
         "candidates": [],
-        "flags": [],
+        "flags": [
+          {
+            "code": "CONVERTED_FROM_WORDS",
+            "message": "Converted from \"seventy-eight percent\" to a percentage.",
+            "blocking": false
+          }
+        ],
         "evidence_quote": "We are at seventy-eight percent progress against our Q2 milestones.",
         "original_text": null
       },
@@ -41,7 +47,7 @@
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "The shipment of reference reagents was delayed by three weeks due to a customs issue, pushing back one sub-activity.",
+        "value": "Reference reagents from the European supplier were delayed three weeks by a customs issue, pushing back one sub-activity.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "the shipment of reference reagents from our European supplier was delayed by three weeks due to a customs issue, which pushed back one sub-activity.",

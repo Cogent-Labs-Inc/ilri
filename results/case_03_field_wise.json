@@ -18,7 +18,7 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "this was for quarter two",
+        "evidence_quote": "this was for quarter two, by the way",
         "original_text": null
       },
       "traffic_light": {
@@ -51,7 +51,7 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "maybe halfway, honestly hard to say exactly, somewhere in the 45 to 50 percent range, if I had to pin down a single number I'd probably say 48",
+        "evidence_quote": "somewhere in the 45 to 50 percent range, if I had to pin down a single number I'd probably say 48",
         "original_text": null
       },
       "key_success": {
@@ -72,7 +72,7 @@
       },
       "support_needed": {
         "status": "EXTRACTED",
-        "value": "Help from legal to review the co-funding agreement wording before countersignature.",
+        "value": "Help from legal to review the co-funding agreement wording before countersigning.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "we could really use some help from legal on reviewing the co-funding agreement wording before we countersign",

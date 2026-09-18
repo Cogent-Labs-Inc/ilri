@@ -1,0 +1,9 @@
+{
+  "verdict": "NEEDS_ATTENTION",
+  "quarter": "Q2",
+  "traffic_light": null,
+  "progress_percent": 85,
+  "key_success": "Migrating the legacy SharePoint list structure to the new schema without any data loss.",
+  "key_challenge": "Timely sign-off from information security on the new data classification policy is delayed and blocking two workstreams.",
+  "support_needed": null
+}
