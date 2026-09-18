@@ -1,0 +1,89 @@
+{
+  "mismatches": [],
+  "draft": {
+    "verdict": "READY_FOR_REVIEW",
+    "transcript": "Hi, this is Elena Farah, One Health and Zoonotic Diseases, with my update for - let me check - this is Q3, actually no wait, sorry, we're still in Q2 reporting, this is for Quarter 2, 2026, my mistake.\nOverall status, I'd initially say green because the lab accreditation work went really well, but... actually, thinking about it more, given the disease surveillance data backlog I'm about to mention, I think amber is more honest. Let's go with amber.\nProgress-wise, I was going to say ninety percent, but that's probably me being optimistic - realistically it's more like seventy percent, maybe seventy-two. Let's say seventy.\nKey success: our regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel, that's confirmed and done.\nKey challenge: we've got a backlog of about six weeks in surveillance data entry from two of our four field sites, which is affecting how current our risk dashboards are.\nSupport needed: we need one additional short-term data entry contractor, ideally within the next month, to clear the backlog - that's the main ask.\nOkay, I think that's everything, thanks.",
+    "detected_language": "en",
+    "rejection_reason": null,
+    "rejection_message": null,
+    "fields": {
+      "quarter": {
+        "status": "EXTRACTED",
+        "value": "Q2 2026",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "SELF_CORRECTED",
+            "message": "The speaker corrected themselves; the earlier value was \"Q3, actually no wait, sorry, we're still in Q2 reporting, this is for Quarter 2, 2026, my mistake.\".",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "this is for Quarter 2, 2026, my mistake.",
+        "original_text": null
+      },
+      "traffic_light": {
+        "status": "EXTRACTED",
+        "value": "Amber",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "SELF_CORRECTED",
+            "message": "The speaker corrected themselves; the earlier value was \"green\".",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "I think amber is more honest.",
+        "original_text": null
+      },
+      "progress_percent": {
+        "status": "EXTRACTED",
+        "value": 70,
+        "candidates": [],
+        "flags": [
+          {
+            "code": "APPROXIMATE",
+            "message": "The speaker described this figure as approximate.",
+            "blocking": false
+          },
+          {
+            "code": "CONVERTED_FROM_WORDS",
+            "message": "Converted from \"seventy\" to a percentage.",
+            "blocking": false
+          },
+          {
+            "code": "SELF_CORRECTED",
+            "message": "The speaker corrected themselves; the earlier value was \"ninety percent\".",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "Let's say seventy.",
+        "original_text": null
+      },
+      "key_success": {
+        "status": "EXTRACTED",
+        "value": "Our regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "our regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel, that's confirmed and done.",
+        "original_text": null
+      },
+      "key_challenge": {
+        "status": "EXTRACTED",
+        "value": "We've got a backlog of about six weeks in surveillance data entry from two of our four field sites.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "we've got a backlog of about six weeks in surveillance data entry from two of our four field sites, which is affecting how current our risk dashboards are.",
+        "original_text": null
+      },
+      "support_needed": {
+        "status": "EXTRACTED",
+        "value": "We need one additional short-term data entry contractor, ideally within the next month, to clear the backlog.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "we need one additional short-term data entry contractor, ideally within the next month, to clear the backlog - that's the main ask.",
+        "original_text": null
+      }
+    },
+    "flags": []
+  }
+}

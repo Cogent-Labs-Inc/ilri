@@ -1,0 +1,28 @@
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets — never commit
+.env
+
+# Local runtime data
+db.sqlite3
+media/
+var/
+
+# Exercise brief / data pack originals (kept locally, not part of the submission repo)
+*.docx
+voice-capture-submission.zip
+voice-capture-submission/
+/Test Case 3 audio.mp3
+/Test Case 6 audio.mp3

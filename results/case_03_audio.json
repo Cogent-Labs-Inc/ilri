@@ -1,0 +1,84 @@
+{
+  "mismatches": [],
+  "draft": {
+    "verdict": "NEEDS_ATTENTION",
+    "transcript": "So, um, yeah, where, where do I even start? Okay, so the biggest headache this quarter, honestly, was the vehicle fleet issue. We had two out of our four survey vehicles down for almost a month, mechanical problems, and that really messed up with our household survey schedule in the Rift Valley sites. So that's, that's probably the main thing I want flagged as a, as a challenge. Oh, um, oh, by the way, I should say this, um, this is the policy and partnership side, George Wanjiru. Sorry, I should have said that at the start. Anyway, um, where was I? Um, right, despite the whole vehicle thing, uh, we still managed to, uh, to, to sign the co-funding agreement with the Regional Livestock Policy Platform. So that's actually a pretty big deal for us. Uh, took us like eight months of negotiations. So I'll definitely count that as a success, definitely. In terms of, um, how far along we are, I would say we're maybe halfway. Uh, honestly, hard to say exactly, somewhere in the 45 to 50% range. But you know, if I had to pin down a number, I'd say probably, um, 48, 48. And, um, if you want to traffic color, I'd say, um, yellow, yep, yellow. Uh, the vehicle situation dragged us down, but the agreement is big enough for us to get out of the rage. So yep, yellow. Uh, in terms of support needed, uh, yeah, we really could use some help from legal on reviewing the co-funding agreement wording before we countersign. And that's actually kind of urgent. So oh, yeah, by the way, this was for quarter two, by the way, um, so yeah, in case that wasn't clear. Thank you.",
+    "detected_language": "en",
+    "rejection_reason": null,
+    "rejection_message": null,
+    "fields": {
+      "quarter": {
+        "status": "EXTRACTED",
+        "value": "Q2",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "YEAR_NOT_STATED",
+            "message": "No year was stated; confirm the year before approval.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "this was for quarter two, by the way",
+        "original_text": null
+      },
+      "traffic_light": {
+        "status": "EXTRACTED",
+        "value": "Amber",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "VOCAB_NORMALISED",
+            "message": "The speaker said \"yellow\", which is not in the controlled vocabulary. Amber is only a suggestion; confirm or change it.",
+            "blocking": true
+          }
+        ],
+        "evidence_quote": "I'd say, um, yellow, yep, yellow",
+        "original_text": null
+      },
+      "progress_percent": {
+        "status": "EXTRACTED",
+        "value": 48,
+        "candidates": [],
+        "flags": [
+          {
+            "code": "APPROXIMATE",
+            "message": "The speaker described this figure as approximate.",
+            "blocking": false
+          },
+          {
+            "code": "RANGE_GIVEN",
+            "message": "The speaker gave a range before committing to this figure.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "I'd say probably, um, 48, 48",
+        "original_text": null
+      },
+      "key_success": {
+        "status": "EXTRACTED",
+        "value": "Signing the co-funding agreement with the Regional Livestock Policy Platform after eight months of negotiations.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "we still managed to, uh, to, to sign the co-funding agreement with the Regional Livestock Policy Platform. So that's actually a pretty big deal for us. Uh, took us like eight months of negotiations.",
+        "original_text": null
+      },
+      "key_challenge": {
+        "status": "EXTRACTED",
+        "value": "The vehicle fleet issue with two out of four survey vehicles down for almost a month.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "the biggest headache this quarter, honestly, was the vehicle fleet issue. We had two out of our four survey vehicles down for almost a month, mechanical problems, and that really messed up with our household survey schedule in the Rift Valley sites.",
+        "original_text": null
+      },
+      "support_needed": {
+        "status": "EXTRACTED",
+        "value": "Help from legal on reviewing the co-funding agreement wording before countersigning, which is urgent.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "we really could use some help from legal on reviewing the co-funding agreement wording before we countersign. And that's actually kind of urgent.",
+        "original_text": null
+      }
+    },
+    "flags": []
+  }
+}

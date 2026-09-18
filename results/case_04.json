@@ -1,0 +1,79 @@
+{
+  "mismatches": [],
+  "draft": {
+    "verdict": "NEEDS_ATTENTION",
+    "transcript": "This is Samuel Kariuki, Director of Digital and Data Systems, with the Q2 update.\nWe're sitting at eighty-five percent complete against our roadmap for this quarter, which I'm pleased with.\nOur key success was migrating the legacy SharePoint list structure to the new schema without any data loss - that was a genuinely tricky piece of work and the team pulled it off cleanly.\nThe main challenge has been getting timely sign-off from the information security team on the new data classification policy - we've been waiting five weeks now and it's starting to hold up two dependent workstreams.\nOn support, at this stage we don't need anything additional from corporate - we're managing the escalation ourselves.\nI think that covers everything for this quarter.",
+    "detected_language": "en",
+    "rejection_reason": null,
+    "rejection_message": null,
+    "fields": {
+      "quarter": {
+        "status": "EXTRACTED",
+        "value": "Q2",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "YEAR_NOT_STATED",
+            "message": "No year was stated; confirm the year before approval.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "with the Q2 update.",
+        "original_text": null
+      },
+      "traffic_light": {
+        "status": "MISSING",
+        "value": null,
+        "candidates": [],
+        "flags": [
+          {
+            "code": "NOT_STATED",
+            "message": "Traffic light was not stated by the speaker.",
+            "blocking": true
+          }
+        ],
+        "evidence_quote": null,
+        "original_text": null
+      },
+      "progress_percent": {
+        "status": "EXTRACTED",
+        "value": 85,
+        "candidates": [],
+        "flags": [
+          {
+            "code": "CONVERTED_FROM_WORDS",
+            "message": "Converted from \"eighty-five percent complete\" to a percentage.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "eighty-five percent complete against our roadmap for this quarter",
+        "original_text": null
+      },
+      "key_success": {
+        "status": "EXTRACTED",
+        "value": "Migrating the legacy SharePoint list structure to the new schema without any data loss.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "migrating the legacy SharePoint list structure to the new schema without any data loss",
+        "original_text": null
+      },
+      "key_challenge": {
+        "status": "EXTRACTED",
+        "value": "Getting timely sign-off from the information security team on the new data classification policy.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "getting timely sign-off from the information security team on the new data classification policy",
+        "original_text": null
+      },
+      "support_needed": {
+        "status": "EXPLICITLY_NONE",
+        "value": null,
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "at this stage we don't need anything additional from corporate",
+        "original_text": null
+      }
+    },
+    "flags": []
+  }
+}

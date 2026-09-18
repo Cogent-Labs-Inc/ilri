@@ -1,0 +1,6 @@
+This is Samuel Kariuki, Director of Digital and Data Systems, with the Q2 update.
+We're sitting at eighty-five percent complete against our roadmap for this quarter, which I'm pleased with.
+Our key success was migrating the legacy SharePoint list structure to the new schema without any data loss - that was a genuinely tricky piece of work and the team pulled it off cleanly.
+The main challenge has been getting timely sign-off from the information security team on the new data classification policy - we've been waiting five weeks now and it's starting to hold up two dependent workstreams.
+On support, at this stage we don't need anything additional from corporate - we're managing the escalation ourselves.
+I think that covers everything for this quarter.

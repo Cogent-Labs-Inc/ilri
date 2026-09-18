@@ -1,0 +1,67 @@
+{
+  "mismatches": [],
+  "draft": {
+    "verdict": "READY_FOR_REVIEW",
+    "transcript": "Good afternoon, this is Dr. Amara Ochieng, Director of the Livestock Genetics and Health Directorate, with my update for Quarter 2, 2026.\nOverall status: green.\nWe are at seventy-eight percent progress against our Q2 milestones.\nKey success: we completed validation of the new genotyping panel for indigenous cattle breeds two weeks ahead of schedule.\nKey challenge: the shipment of reference reagents from our European supplier was delayed by three weeks due to a customs issue, which pushed back one sub-activity.\nSupport needed: we would appreciate corporate procurement support to help pre-clear future reagent shipments through customs more quickly.\nThat's my update for this quarter.",
+    "detected_language": "en",
+    "rejection_reason": null,
+    "rejection_message": null,
+    "fields": {
+      "quarter": {
+        "status": "EXTRACTED",
+        "value": "Q2 2026",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "this is Dr. Amara Ochieng, Director of the Livestock Genetics and Health Directorate, with my update for Quarter 2, 2026.",
+        "original_text": null
+      },
+      "traffic_light": {
+        "status": "EXTRACTED",
+        "value": "Green",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "Overall status: green.",
+        "original_text": null
+      },
+      "progress_percent": {
+        "status": "EXTRACTED",
+        "value": 78,
+        "candidates": [],
+        "flags": [
+          {
+            "code": "CONVERTED_FROM_WORDS",
+            "message": "Converted from \"seventy-eight percent progress against our Q2 milestones\" to a percentage.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "We are at seventy-eight percent progress against our Q2 milestones.",
+        "original_text": null
+      },
+      "key_success": {
+        "status": "EXTRACTED",
+        "value": "We completed validation of the new genotyping panel for indigenous cattle breeds two weeks ahead of schedule.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "Key success: we completed validation of the new genotyping panel for indigenous cattle breeds two weeks ahead of schedule.",
+        "original_text": null
+      },
+      "key_challenge": {
+        "status": "EXTRACTED",
+        "value": "The shipment of reference reagents from our European supplier was delayed by three weeks due to a customs issue.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "Key challenge: the shipment of reference reagents from our European supplier was delayed by three weeks due to a customs issue, which pushed back one sub-activity.",
+        "original_text": null
+      },
+      "support_needed": {
+        "status": "EXTRACTED",
+        "value": "We would appreciate corporate procurement support to help pre-clear future reagent shipments through customs more quickly.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "Support needed: we would appreciate corporate procurement support to help pre-clear future reagent shipments through customs more quickly.",
+        "original_text": null
+      }
+    },
+    "flags": []
+  }
+}

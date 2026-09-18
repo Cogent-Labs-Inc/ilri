@@ -1,0 +1,91 @@
+{
+  "mismatches": [],
+  "draft": {
+    "verdict": "NEEDS_ATTENTION",
+    "transcript": "Bonjour, ici Jean-Baptiste Nkurunziza, directeur de la Direction de la résilience et des systèmes pastoraux pour la mise à jour du deuxième temestre 2026. La statue globale est orange, nous avons réalisé environ 64% des activités prévues. Notre principal succès est que les formations de partenaires ont été achevées dans quatre pays. Le principal défi est le retard dans la réception des données de deux équipes pays. Nous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports. Voilà, c'est tout pour le septemestre. Merci beaucoup.",
+    "detected_language": "fr",
+    "rejection_reason": null,
+    "rejection_message": null,
+    "fields": {
+      "quarter": {
+        "status": "EXTRACTED",
+        "value": "Q2 2026",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "deuxième temestre 2026",
+        "original_text": null
+      },
+      "traffic_light": {
+        "status": "EXTRACTED",
+        "value": "Amber",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "VOCAB_NORMALISED",
+            "message": "The speaker said \"orange\", which is not in the controlled vocabulary. Amber is only a suggestion; confirm or change it.",
+            "blocking": true
+          }
+        ],
+        "evidence_quote": "La statue globale est orange",
+        "original_text": null
+      },
+      "progress_percent": {
+        "status": "EXTRACTED",
+        "value": 64,
+        "candidates": [],
+        "flags": [
+          {
+            "code": "APPROXIMATE",
+            "message": "The speaker described this figure as approximate.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "environ 64% des activités prévues",
+        "original_text": null
+      },
+      "key_success": {
+        "status": "EXTRACTED",
+        "value": "The main success is that partner training was completed in four countries.",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "MACHINE_TRANSLATED",
+            "message": "Translated to English by the AI; verify it against the speaker's original words.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "Notre principal succès est que les formations de partenaires ont été achevées dans quatre pays.",
+        "original_text": "Notre principal succès est que les formations de partenaires ont été achevées dans quatre pays."
+      },
+      "key_challenge": {
+        "status": "EXTRACTED",
+        "value": "The main challenge is the delay in receiving data from two country teams.",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "MACHINE_TRANSLATED",
+            "message": "Translated to English by the AI; verify it against the speaker's original words.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "Le principal défi est le retard dans la réception des données de deux équipes pays.",
+        "original_text": "Le principal défi est le retard dans la réception des données de deux équipes pays."
+      },
+      "support_needed": {
+        "status": "EXTRACTED",
+        "value": "Support from the MEL team is needed to improve report tracking.",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "MACHINE_TRANSLATED",
+            "message": "Translated to English by the AI; verify it against the speaker's original words.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "Nous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports.",
+        "original_text": "Nous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports."
+      }
+    },
+    "flags": []
+  }
+}

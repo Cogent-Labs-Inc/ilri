@@ -1,0 +1,84 @@
+{
+  "mismatches": [],
+  "draft": {
+    "verdict": "NEEDS_ATTENTION",
+    "transcript": "So, um, yeah - where do I even start... okay so the biggest headache this quarter, honestly, was the vehicle fleet issue, we had two of our four survey vehicles down for almost a month, mechanical problems, and that really messed with our household survey schedule in the Rift Valley sites. That's probably the main thing I want flagged as a challenge.\nOh - and I should say, this is the policy and partnerships side, George Wanjiru, sorry I should've said that at the start.\nAnyway, um, where was I. Right, so despite the vehicle thing, we still managed to sign the co-funding agreement with the regional livestock policy platform, that's actually a pretty big deal for us, took like eight months of negotiation, so I'd count that as a success, definitely.\nIn terms of, uh, how far along we are - I'd say we're... maybe halfway, honestly hard to say exactly, somewhere in the 45 to 50 percent range, if I had to pin down a single number I'd probably say 48.\nIf you want a traffic light colour for this one, I'd say yellow - the vehicle situation dragged us down, but the agreement is a big enough win to keep us out of red.\nSupport needed - yeah, we could really use some help from legal on reviewing the co-funding agreement wording before we countersign, that's kind of urgent actually.\nOh, and this was for quarter two, by the way, in case that wasn't clear.",
+    "detected_language": "en",
+    "rejection_reason": null,
+    "rejection_message": null,
+    "fields": {
+      "quarter": {
+        "status": "EXTRACTED",
+        "value": "Q2",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "YEAR_NOT_STATED",
+            "message": "No year was stated; confirm the year before approval.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "Oh, and this was for quarter two, by the way, in case that wasn't clear.",
+        "original_text": null
+      },
+      "traffic_light": {
+        "status": "EXTRACTED",
+        "value": "Amber",
+        "candidates": [],
+        "flags": [
+          {
+            "code": "VOCAB_NORMALISED",
+            "message": "The speaker said \"yellow\", which is not in the controlled vocabulary. Amber is only a suggestion; confirm or change it.",
+            "blocking": true
+          }
+        ],
+        "evidence_quote": "If you want a traffic light colour for this one, I'd say yellow",
+        "original_text": null
+      },
+      "progress_percent": {
+        "status": "EXTRACTED",
+        "value": 48,
+        "candidates": [],
+        "flags": [
+          {
+            "code": "APPROXIMATE",
+            "message": "The speaker described this figure as approximate.",
+            "blocking": false
+          },
+          {
+            "code": "RANGE_GIVEN",
+            "message": "The speaker gave a range before committing to this figure.",
+            "blocking": false
+          }
+        ],
+        "evidence_quote": "somewhere in the 45 to 50 percent range, if I had to pin down a single number I'd probably say 48",
+        "original_text": null
+      },
+      "key_success": {
+        "status": "EXTRACTED",
+        "value": "Signed the co-funding agreement with the regional livestock policy platform after eight months of negotiation.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "we still managed to sign the co-funding agreement with the regional livestock policy platform, that's actually a pretty big deal for us, took like eight months of negotiation",
+        "original_text": null
+      },
+      "key_challenge": {
+        "status": "EXTRACTED",
+        "value": "The vehicle fleet issue with two survey vehicles down for almost a month affected the household survey schedule.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "the biggest headache this quarter, honestly, was the vehicle fleet issue, we had two of our four survey vehicles down for almost a month, mechanical problems, and that really messed with our household survey schedule in the Rift Valley sites",
+        "original_text": null
+      },
+      "support_needed": {
+        "status": "EXTRACTED",
+        "value": "Help from legal on reviewing the co-funding agreement wording before countersigning is needed urgently.",
+        "candidates": [],
+        "flags": [],
+        "evidence_quote": "we could really use some help from legal on reviewing the co-funding agreement wording before we countersign, that's kind of urgent actually",
+        "original_text": null
+      }
+    },
+    "flags": []
+  }
+}

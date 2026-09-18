@@ -1,0 +1,82 @@
+{
+  "verdict": "READY_FOR_REVIEW",
+  "transcript": "Hola, soy la Dra. Elena Vargas, Directora de Sistemas de Producción Ganadera, con mi informe del segundo trimestre de 2026. El estado general es verde. Hemos alcanzado el ochenta por ciento de nuestras metas. El éxito principal fue la finalización del nuevo centro de capacitación en dos países. El principal desafío fue el retraso en la entrega de equipos de laboratorio por parte de nuestro proveedor internacional. Necesitamos apoyo del departamento de adquisiciones para agilizar futuros envíos.",
+  "detected_language": "es",
+  "rejection_reason": null,
+  "rejection_message": null,
+  "fields": {
+    "quarter": {
+      "status": "EXTRACTED",
+      "value": "Q2 2026",
+      "candidates": [],
+      "flags": [],
+      "evidence_quote": "segundo trimestre de 2026",
+      "original_text": null
+    },
+    "traffic_light": {
+      "status": "EXTRACTED",
+      "value": "Green",
+      "candidates": [],
+      "flags": [],
+      "evidence_quote": "El estado general es verde.",
+      "original_text": null
+    },
+    "progress_percent": {
+      "status": "EXTRACTED",
+      "value": 80,
+      "candidates": [],
+      "flags": [
+        {
+          "code": "CONVERTED_FROM_WORDS",
+          "message": "Converted from \"ochenta por ciento\" to a percentage.",
+          "blocking": false
+        }
+      ],
+      "evidence_quote": "Hemos alcanzado el ochenta por ciento de nuestras metas.",
+      "original_text": null
+    },
+    "key_success": {
+      "status": "EXTRACTED",
+      "value": "The main success was the completion of the new training center in two countries.",
+      "candidates": [],
+      "flags": [
+        {
+          "code": "MACHINE_TRANSLATED",
+          "message": "Translated to English by the AI; verify it against the speaker's original words.",
+          "blocking": false
+        }
+      ],
+      "evidence_quote": "El éxito principal fue la finalización del nuevo centro de capacitación en dos países.",
+      "original_text": "El éxito principal fue la finalización del nuevo centro de capacitación en dos países."
+    },
+    "key_challenge": {
+      "status": "EXTRACTED",
+      "value": "The main challenge was the delay in the delivery of laboratory equipment from our international supplier.",
+      "candidates": [],
+      "flags": [
+        {
+          "code": "MACHINE_TRANSLATED",
+          "message": "Translated to English by the AI; verify it against the speaker's original words.",
+          "blocking": false
+        }
+      ],
+      "evidence_quote": "El principal desafío fue el retraso en la entrega de equipos de laboratorio por parte de nuestro proveedor internacional.",
+      "original_text": "El principal desafío fue el retraso en la entrega de equipos de laboratorio por parte de nuestro proveedor internacional."
+    },
+    "support_needed": {
+      "status": "EXTRACTED",
+      "value": "We need support from the procurement department to expedite future shipments.",
+      "candidates": [],
+      "flags": [
+        {
+          "code": "MACHINE_TRANSLATED",
+          "message": "Translated to English by the AI; verify it against the speaker's original words.",
+          "blocking": false
+        }
+      ],
+      "evidence_quote": "Necesitamos apoyo del departamento de adquisiciones para agilizar futuros envíos.",
+      "original_text": "Necesitamos apoyo del departamento de adquisiciones para agilizar futuros envíos."
+    }
+  },
+  "flags": []
+}

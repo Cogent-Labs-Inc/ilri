@@ -1,0 +1,135 @@
+{
+  "dataset": "datapack",
+  "cases": [
+    {
+      "id": "case_01",
+      "description": "Clean, fully specified update",
+      "input": {"type": "transcript", "file": "case_01.txt"},
+      "expect": {
+        "verdict": "READY_FOR_REVIEW",
+        "fields": {
+          "quarter": {"status": "EXTRACTED", "value": "Q2 2026"},
+          "traffic_light": {"status": "EXTRACTED", "value": "Green", "flags_exclude": ["VOCAB_NORMALISED"]},
+          "progress_percent": {"status": "EXTRACTED", "value": 78},
+          "key_success": {"status": "EXTRACTED", "value_contains_any": ["genotyping"]},
+          "key_challenge": {"status": "EXTRACTED", "value_contains_any": ["reagent", "customs", "shipment"]},
+          "support_needed": {"status": "EXTRACTED", "value_contains_any": ["procurement", "customs"]}
+        }
+      }
+    },
+    {
+      "id": "case_02",
+      "description": "Informal phrasing, quarter without year, explicit no support needed",
+      "input": {"type": "transcript", "file": "case_02.txt"},
+      "expect": {
+        "verdict": "READY_FOR_REVIEW",
+        "fields": {
+          "quarter": {"status": "EXTRACTED", "value": "Q2", "flags_include": ["YEAR_NOT_STATED"]},
+          "traffic_light": {"status": "EXTRACTED", "value": "Amber", "flags_exclude": ["VOCAB_NORMALISED"]},
+          "progress_percent": {"status": "EXTRACTED", "value": 60},
+          "key_success": {"status": "EXTRACTED", "value_contains_any": ["protocol", "forage"]},
+          "key_challenge": {"status": "EXTRACTED", "value_contains_any": ["turnover", "research associates", "staff"]},
+          "support_needed": {"status": "EXPLICITLY_NONE", "value": null}
+        }
+      }
+    },
+    {
+      "id": "case_03",
+      "description": "Rambling, out of order, off-vocabulary colour, range then committed number",
+      "input": {"type": "transcript", "file": "case_03.txt"},
+      "expect": {
+        "verdict": "NEEDS_ATTENTION",
+        "fields": {
+          "quarter": {"status": "EXTRACTED", "value": "Q2", "flags_include": ["YEAR_NOT_STATED"]},
+          "traffic_light": {"status": "EXTRACTED", "value": "Amber", "flags_include": ["VOCAB_NORMALISED"]},
+          "progress_percent": {"status": "EXTRACTED", "value": 48, "flags_include": ["RANGE_GIVEN"]},
+          "key_success": {"status": "EXTRACTED", "value_contains_any": ["co-funding", "agreement"]},
+          "key_challenge": {"status": "EXTRACTED", "value_contains_any": ["vehicle"]},
+          "support_needed": {"status": "EXTRACTED", "value_contains_any": ["legal"]}
+        }
+      }
+    },
+    {
+      "id": "case_03_audio",
+      "description": "Case 3 through speech-to-text",
+      "input": {"type": "audio", "file": "audio/case_03.mp3", "reference_transcript": "case_03.txt"},
+      "expect": {
+        "verdict": "NEEDS_ATTENTION",
+        "fields": {
+          "quarter": {"status": "EXTRACTED", "value": "Q2"},
+          "traffic_light": {"status": "EXTRACTED", "value": "Amber", "flags_include": ["VOCAB_NORMALISED"]},
+          "progress_percent": {"status": "EXTRACTED", "value": 48},
+          "key_success": {"status": "EXTRACTED", "value_contains_any": ["co-funding", "agreement"]},
+          "key_challenge": {"status": "EXTRACTED", "value_contains_any": ["vehicle"]},
+          "support_needed": {"status": "EXTRACTED", "value_contains_any": ["legal"]}
+        }
+      }
+    },
+    {
+      "id": "case_04",
+      "description": "Traffic light never stated; explicit no support needed",
+      "input": {"type": "transcript", "file": "case_04.txt"},
+      "expect": {
+        "verdict": "NEEDS_ATTENTION",
+        "fields": {
+          "quarter": {"status": "EXTRACTED", "value": "Q2", "flags_include": ["YEAR_NOT_STATED"]},
+          "traffic_light": {"status": "MISSING", "value": null},
+          "progress_percent": {"status": "EXTRACTED", "value": 85},
+          "key_success": {"status": "EXTRACTED", "value_contains_any": ["sharepoint", "migrat"]},
+          "key_challenge": {"status": "EXTRACTED", "value_contains_any": ["security", "sign-off", "classification"]},
+          "support_needed": {"status": "EXPLICITLY_NONE", "value": null}
+        }
+      }
+    },
+    {
+      "id": "case_05",
+      "description": "Self-corrections for quarter, colour and progress",
+      "input": {"type": "transcript", "file": "case_05.txt"},
+      "expect": {
+        "verdict": "READY_FOR_REVIEW",
+        "fields": {
+          "quarter": {"status": "EXTRACTED", "value": "Q2 2026", "flags_include": ["SELF_CORRECTED"]},
+          "traffic_light": {"status": "EXTRACTED", "value": "Amber", "flags_include": ["SELF_CORRECTED"]},
+          "progress_percent": {"status": "EXTRACTED", "value": 70, "flags_include": ["SELF_CORRECTED"]},
+          "key_success": {"status": "EXTRACTED", "value_contains_any": ["accreditation"]},
+          "key_challenge": {"status": "EXTRACTED", "value_contains_any": ["backlog"]},
+          "support_needed": {"status": "EXTRACTED", "value_contains_any": ["contractor"]}
+        }
+      }
+    },
+    {
+      "id": "case_06",
+      "description": "French input, off-vocabulary colour, approximate number",
+      "input": {"type": "transcript", "file": "case_06.txt"},
+      "expect": {
+        "verdict": "NEEDS_ATTENTION",
+        "detected_language": "fr",
+        "fields": {
+          "quarter": {"status": "EXTRACTED", "value": "Q2 2026"},
+          "traffic_light": {"status": "EXTRACTED", "value": "Amber", "flags_include": ["VOCAB_NORMALISED"]},
+          "progress_percent": {"status": "EXTRACTED", "value": 64, "flags_include": ["APPROXIMATE"]},
+          "key_success": {"status": "EXTRACTED", "value_contains_any": ["training"], "flags_include": ["MACHINE_TRANSLATED"]},
+          "key_challenge": {"status": "EXTRACTED", "value_contains_any": ["data"], "flags_include": ["MACHINE_TRANSLATED"]},
+          "support_needed": {"status": "EXTRACTED", "value_contains_any": ["MEL"], "flags_include": ["MACHINE_TRANSLATED"]}
+        }
+      }
+    },
+    {
+      "id": "case_06_audio",
+      "description": "Case 6 through speech-to-text",
+      "input": {"type": "audio", "file": "audio/case_06.mp3", "reference_transcript": "case_06.txt"},
+      "expect": {
+        "verdict": "NEEDS_ATTENTION",
+        "detected_language": "fr",
+        "fields": {
+          "quarter": {"status": "EXTRACTED", "value": "Q2 2026"},
+          "traffic_light": {"status": "EXTRACTED", "value": "Amber", "flags_include": ["VOCAB_NORMALISED"]},
+          "progress_percent": {"status": "EXTRACTED", "value": 64},
+          "key_success": {"status": "EXTRACTED", "flags_include": ["MACHINE_TRANSLATED"]},
+          "key_challenge": {"status": "EXTRACTED", "flags_include": ["MACHINE_TRANSLATED"]},
+          "support_needed": {"status": "EXTRACTED", "value_contains_any": ["MEL"], "flags_include": ["MACHINE_TRANSLATED"]}
+        }
+      }
+    }
+  ]
+}
