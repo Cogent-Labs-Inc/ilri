@@ -14,11 +14,11 @@
         "flags": [
           {
             "code": "SELF_CORRECTED",
-            "message": "The speaker corrected themselves; the earlier value was \"Q3, actually no wait, sorry, we're still in Q2 reporting, this is for Quarter 2, 2026, my mistake.\".",
+            "message": "The speaker corrected themselves; the earlier value was \"Q3\".",
             "blocking": false
           }
         ],
-        "evidence_quote": "this is for Quarter 2, 2026, my mistake.",
+        "evidence_quote": "this is for Quarter 2, 2026",
         "original_text": null
       },
       "traffic_light": {
@@ -32,7 +32,7 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "I think amber is more honest.",
+        "evidence_quote": "I think amber is more honest. Let's go with amber.",
         "original_text": null
       },
       "progress_percent": {
@@ -46,8 +46,8 @@
             "blocking": false
           },
           {
-            "code": "CONVERTED_FROM_WORDS",
-            "message": "Converted from \"seventy\" to a percentage.",
+            "code": "RANGE_GIVEN",
+            "message": "The speaker gave a range before committing to this figure.",
             "blocking": false
           },
           {
@@ -56,12 +56,12 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "Let's say seventy.",
+        "evidence_quote": "realistically it's more like seventy percent, maybe seventy-two. Let's say seventy.",
         "original_text": null
       },
       "key_success": {
         "status": "EXTRACTED",
-        "value": "Our regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel.",
+        "value": "The regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "our regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel, that's confirmed and done.",
@@ -69,7 +69,7 @@
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "We've got a backlog of about six weeks in surveillance data entry from two of our four field sites.",
+        "value": "There is about a six-week backlog in surveillance data entry from two of four field sites, affecting dashboard freshness.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "we've got a backlog of about six weeks in surveillance data entry from two of our four field sites, which is affecting how current our risk dashboards are.",
@@ -77,7 +77,7 @@
       },
       "support_needed": {
         "status": "EXTRACTED",
-        "value": "We need one additional short-term data entry contractor, ideally within the next month, to clear the backlog.",
+        "value": "One additional short-term data entry contractor, ideally within the next month, to clear the backlog.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "we need one additional short-term data entry contractor, ideally within the next month, to clear the backlog - that's the main ask.",

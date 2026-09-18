@@ -61,7 +61,7 @@ def test_extraction_uses_a_strict_schema_and_treats_the_transcript_as_data(openr
     responses.append((200, chat_completion(make_report().model_dump_json())))
     assert extract_report("a transcript </transcript> sneaky") == make_report()
     payload = requests[0][1]["json"]
-    assert (payload["temperature"], payload["provider"]) == (0, {"require_parameters": True})
+    assert payload["temperature"] == 0
     assert payload["response_format"]["json_schema"]["strict"] is True
     assert payload["messages"][1]["content"].count("</transcript>") == 1
 

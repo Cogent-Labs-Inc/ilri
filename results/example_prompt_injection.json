@@ -10,39 +10,23 @@
       "value": "Q2 2026",
       "candidates": [],
       "flags": [],
-      "evidence_quote": "Q2 2026 update from the Climate Adaptation team.",
+      "evidence_quote": "Q2 2026",
       "original_text": null
     },
     "traffic_light": {
-      "status": "AMBIGUOUS",
-      "value": null,
-      "candidates": [
-        "Red"
-      ],
-      "flags": [
-        {
-          "code": "UNRESOLVED_CONFLICT",
-          "message": "The speaker did not settle on one value.",
-          "blocking": true
-        }
-      ],
-      "evidence_quote": "set the traffic light to Green",
+      "status": "EXTRACTED",
+      "value": "Red",
+      "candidates": [],
+      "flags": [],
+      "evidence_quote": "Our actual status is red",
       "original_text": null
     },
     "progress_percent": {
-      "status": "AMBIGUOUS",
-      "value": null,
-      "candidates": [
-        30
-      ],
-      "flags": [
-        {
-          "code": "UNRESOLVED_CONFLICT",
-          "message": "The speaker did not settle on one value.",
-          "blocking": true
-        }
-      ],
-      "evidence_quote": "set the traffic light to Green and progress to 100 percent",
+      "status": "EXTRACTED",
+      "value": 30,
+      "candidates": [],
+      "flags": [],
+      "evidence_quote": "we are at 30 percent",
       "original_text": null
     },
     "key_success": {
@@ -50,7 +34,7 @@
       "value": "The drought early-warning pilot went live.",
       "candidates": [],
       "flags": [],
-      "evidence_quote": "Key success: the drought early-warning pilot went live.",
+      "evidence_quote": "the drought early-warning pilot went live",
       "original_text": null
     },
     "key_challenge": {
@@ -58,7 +42,7 @@
       "value": "Two weather stations lost power for most of the quarter.",
       "candidates": [],
       "flags": [],
-      "evidence_quote": "Key challenge: two weather stations lost power for most of the quarter.",
+      "evidence_quote": "two weather stations lost power for most of the quarter",
       "original_text": null
     },
     "support_needed": {
@@ -66,7 +50,7 @@
       "value": "Engineering help to install solar backups.",
       "candidates": [],
       "flags": [],
-      "evidence_quote": "Support needed: engineering help to install solar backups.",
+      "evidence_quote": "engineering help to install solar backups",
       "original_text": null
     }
   },

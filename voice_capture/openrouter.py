@@ -89,7 +89,6 @@ def extract_report(transcript):
             "type": "json_schema",
             "json_schema": {"name": "quarterly_update_report", "strict": True, "schema": ExtractionReport.model_json_schema()},
         },
-        "provider": {"require_parameters": True},
     }
 
     body = post_to_openrouter("/chat/completions", payload, RejectionReason.EXTRACTION_UNAVAILABLE)

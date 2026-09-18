@@ -12,7 +12,7 @@
         "value": "Q2 2026",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "deuxième temestre 2026",
+        "evidence_quote": "la mise à jour du deuxième temestre 2026",
         "original_text": null
       },
       "traffic_light": {
@@ -40,12 +40,12 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "environ 64% des activités prévues",
+        "evidence_quote": "nous avons réalisé environ 64% des activités prévues",
         "original_text": null
       },
       "key_success": {
         "status": "EXTRACTED",
-        "value": "The main success is that partner training was completed in four countries.",
+        "value": "Partner trainings were completed in four countries.",
         "candidates": [],
         "flags": [
           {
@@ -59,7 +59,7 @@
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "The main challenge is the delay in receiving data from two country teams.",
+        "value": "Delay in receiving data from two country teams.",
         "candidates": [],
         "flags": [
           {
@@ -73,7 +73,7 @@
       },
       "support_needed": {
         "status": "EXTRACTED",
-        "value": "Support from the MEL team is needed to improve report tracking.",
+        "value": "Support from the MEL team to improve report tracking.",
         "candidates": [],
         "flags": [
           {

@@ -18,7 +18,7 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "Oh, and this was for quarter two, by the way, in case that wasn't clear.",
+        "evidence_quote": "this was for quarter two",
         "original_text": null
       },
       "traffic_light": {
@@ -32,7 +32,7 @@
             "blocking": true
           }
         ],
-        "evidence_quote": "If you want a traffic light colour for this one, I'd say yellow",
+        "evidence_quote": "I'd say yellow",
         "original_text": null
       },
       "progress_percent": {
@@ -51,31 +51,31 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "somewhere in the 45 to 50 percent range, if I had to pin down a single number I'd probably say 48",
+        "evidence_quote": "maybe halfway, honestly hard to say exactly, somewhere in the 45 to 50 percent range, if I had to pin down a single number I'd probably say 48",
         "original_text": null
       },
       "key_success": {
         "status": "EXTRACTED",
-        "value": "Signed the co-funding agreement with the regional livestock policy platform after eight months of negotiation.",
+        "value": "They signed the co-funding agreement with the regional livestock policy platform.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "we still managed to sign the co-funding agreement with the regional livestock policy platform, that's actually a pretty big deal for us, took like eight months of negotiation",
+        "evidence_quote": "we still managed to sign the co-funding agreement with the regional livestock policy platform",
         "original_text": null
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "The vehicle fleet issue with two survey vehicles down for almost a month affected the household survey schedule.",
+        "value": "Two of four survey vehicles were down for almost a month, disrupting the household survey schedule.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "the biggest headache this quarter, honestly, was the vehicle fleet issue, we had two of our four survey vehicles down for almost a month, mechanical problems, and that really messed with our household survey schedule in the Rift Valley sites",
+        "evidence_quote": "we had two of our four survey vehicles down for almost a month, mechanical problems, and that really messed with our household survey schedule in the Rift Valley sites",
         "original_text": null
       },
       "support_needed": {
         "status": "EXTRACTED",
-        "value": "Help from legal on reviewing the co-funding agreement wording before countersigning is needed urgently.",
+        "value": "Help from legal to review the co-funding agreement wording before countersignature.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "we could really use some help from legal on reviewing the co-funding agreement wording before we countersign, that's kind of urgent actually",
+        "evidence_quote": "we could really use some help from legal on reviewing the co-funding agreement wording before we countersign",
         "original_text": null
       }
     },

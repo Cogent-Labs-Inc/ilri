@@ -37,7 +37,7 @@
     },
     "key_success": {
       "status": "EXTRACTED",
-      "value": "Completion of training for new staff at three centers.",
+      "value": "Completion of training for new staff in three centers.",
       "candidates": [],
       "flags": [
         {
@@ -47,11 +47,11 @@
         }
       ],
       "evidence_quote": "Mafanikio makuu ni kukamilika kwa mafunzo ya wafanyakazi wapya katika vituo vitatu.",
-      "original_text": "kukamilika kwa mafunzo ya wafanyakazi wapya katika vituo vitatu."
+      "original_text": "kukamilika kwa mafunzo ya wafanyakazi wapya katika vituo vitatu"
     },
     "key_challenge": {
       "status": "EXTRACTED",
-      "value": "Delay in laboratory equipment from an international supplier.",
+      "value": "Delay in lab equipment from an international supplier.",
       "candidates": [],
       "flags": [
         {
@@ -61,11 +61,11 @@
         }
       ],
       "evidence_quote": "Changamoto kuu ni ucheleweshaji wa vifaa vya maabara kutoka kwa muuzaji wa kimataifa.",
-      "original_text": "ucheleweshaji wa vifaa vya maabara kutoka kwa muuzaji wa kimataifa."
+      "original_text": "ucheleweshaji wa vifaa vya maabara kutoka kwa muuzaji wa kimataifa"
     },
     "support_needed": {
       "status": "EXTRACTED",
-      "value": "Support from the procurement department to expedite shipping of incoming equipment.",
+      "value": "Support from procurement to speed up shipment of future equipment.",
       "candidates": [],
       "flags": [
         {

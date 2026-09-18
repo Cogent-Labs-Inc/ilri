@@ -18,7 +18,7 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "with the Q2 update.",
+        "evidence_quote": "with the Q2 update",
         "original_text": null
       },
       "traffic_light": {
@@ -39,14 +39,8 @@
         "status": "EXTRACTED",
         "value": 85,
         "candidates": [],
-        "flags": [
-          {
-            "code": "CONVERTED_FROM_WORDS",
-            "message": "Converted from \"eighty-five percent complete\" to a percentage.",
-            "blocking": false
-          }
-        ],
-        "evidence_quote": "eighty-five percent complete against our roadmap for this quarter",
+        "flags": [],
+        "evidence_quote": "We're sitting at eighty-five percent complete against our roadmap for this quarter",
         "original_text": null
       },
       "key_success": {
@@ -54,7 +48,7 @@
         "value": "Migrating the legacy SharePoint list structure to the new schema without any data loss.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "migrating the legacy SharePoint list structure to the new schema without any data loss",
+        "evidence_quote": "Our key success was migrating the legacy SharePoint list structure to the new schema without any data loss",
         "original_text": null
       },
       "key_challenge": {
@@ -62,7 +56,7 @@
         "value": "Getting timely sign-off from the information security team on the new data classification policy.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "getting timely sign-off from the information security team on the new data classification policy",
+        "evidence_quote": "The main challenge has been getting timely sign-off from the information security team on the new data classification policy",
         "original_text": null
       },
       "support_needed": {
@@ -70,7 +64,7 @@
         "value": null,
         "candidates": [],
         "flags": [],
-        "evidence_quote": "at this stage we don't need anything additional from corporate",
+        "evidence_quote": "we don't need anything additional from corporate",
         "original_text": null
       }
     },
