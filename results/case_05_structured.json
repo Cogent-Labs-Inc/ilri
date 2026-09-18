@@ -4,6 +4,19 @@
   "traffic_light": "Amber",
   "progress_percent": 70,
   "key_success": "The regional lab in Nairobi received full accreditation for the new zoonotic pathogen panel.",
-  "key_challenge": "There is a six-week backlog in surveillance data entry at two of four field sites.",
-  "support_needed": "One additional short-term data entry contractor, ideally within the next month."
+  "key_challenge": "There is a six-week backlog in surveillance data entry at two of four field sites, affecting dashboard freshness.",
+  "support_needed": "One additional short-term data entry contractor is needed, ideally within the next month, to clear the backlog.",
+  "draft_flags": [],
+  "field_flags": {
+    "quarter": [
+      "SELF_CORRECTED"
+    ],
+    "traffic_light": [
+      "SELF_CORRECTED"
+    ],
+    "progress_percent": [
+      "APPROXIMATE",
+      "SELF_CORRECTED"
+    ]
+  }
 }

@@ -12,7 +12,7 @@
         "value": "Q2 2026",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "with my update for Quarter 2, 2026.",
+        "evidence_quote": "for Quarter 2, 2026",
         "original_text": null
       },
       "traffic_light": {
@@ -27,19 +27,13 @@
         "status": "EXTRACTED",
         "value": 78,
         "candidates": [],
-        "flags": [
-          {
-            "code": "CONVERTED_FROM_WORDS",
-            "message": "Converted from \"seventy-eight percent\" to a percentage.",
-            "blocking": false
-          }
-        ],
+        "flags": [],
         "evidence_quote": "We are at seventy-eight percent progress against our Q2 milestones.",
         "original_text": null
       },
       "key_success": {
         "status": "EXTRACTED",
-        "value": "We completed validation of the new genotyping panel for indigenous cattle breeds two weeks ahead of schedule.",
+        "value": "Completed validation of the new genotyping panel for indigenous cattle breeds two weeks ahead of schedule.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "we completed validation of the new genotyping panel for indigenous cattle breeds two weeks ahead of schedule.",
@@ -55,7 +49,7 @@
       },
       "support_needed": {
         "status": "EXTRACTED",
-        "value": "We would appreciate corporate procurement support to pre-clear future reagent shipments through customs more quickly.",
+        "value": "Corporate procurement support to pre-clear future reagent shipments through customs more quickly.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "we would appreciate corporate procurement support to help pre-clear future reagent shipments through customs more quickly.",

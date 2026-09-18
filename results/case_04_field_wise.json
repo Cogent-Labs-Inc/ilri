@@ -40,7 +40,7 @@
         "value": 85,
         "candidates": [],
         "flags": [],
-        "evidence_quote": "We're sitting at eighty-five percent complete against our roadmap for this quarter",
+        "evidence_quote": "We're sitting at eighty-five percent complete against our roadmap for this quarter, which I'm pleased with.",
         "original_text": null
       },
       "key_success": {
@@ -53,7 +53,7 @@
       },
       "key_challenge": {
         "status": "EXTRACTED",
-        "value": "Timely sign-off from information security on the new data classification policy is delayed and blocking two workstreams.",
+        "value": "Timely sign-off from the information security team on the new data classification policy is delaying dependent workstreams.",
         "candidates": [],
         "flags": [],
         "evidence_quote": "The main challenge has been getting timely sign-off from the information security team on the new data classification policy - we've been waiting five weeks now and it's starting to hold up two dependent workstreams.",

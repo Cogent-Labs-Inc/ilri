@@ -45,7 +45,7 @@
       },
       "key_success": {
         "status": "EXTRACTED",
-        "value": "Partner trainings were completed in four countries.",
+        "value": "The partner trainings were completed in four countries.",
         "candidates": [],
         "flags": [
           {
@@ -55,7 +55,7 @@
           }
         ],
         "evidence_quote": "Notre principal succès est que les formations des partenaires ont été achevées dans quatre pays.",
-        "original_text": "les formations des partenaires ont été achevées dans quatre pays"
+        "original_text": "Notre principal succès est que les formations des partenaires ont été achevées dans quatre pays."
       },
       "key_challenge": {
         "status": "EXTRACTED",
@@ -69,7 +69,7 @@
           }
         ],
         "evidence_quote": "Le principal défi est le retard dans la réception des données de deux équipes pays.",
-        "original_text": "le retard dans la réception des données de deux équipes pays"
+        "original_text": "Le principal défi est le retard dans la réception des données de deux équipes pays."
       },
       "support_needed": {
         "status": "EXTRACTED",
@@ -83,7 +83,7 @@
           }
         ],
         "evidence_quote": "Nous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports.",
-        "original_text": "l'appui de l'équipe MEL pour améliorer le suivi des rapports"
+        "original_text": "Nous avons besoin de l'appui de l'équipe MEL pour améliorer le suivi des rapports."
       }
     },
     "flags": []

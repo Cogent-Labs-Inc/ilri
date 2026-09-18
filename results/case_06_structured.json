@@ -3,7 +3,25 @@
   "quarter": "Q2 2026",
   "traffic_light": "Amber",
   "progress_percent": 64,
-  "key_success": "Partner trainings were completed in four countries.",
+  "key_success": "The partner trainings were completed in four countries.",
   "key_challenge": "Delayed receipt of data from two country teams.",
-  "support_needed": "Support from the MEL team to improve report tracking."
+  "support_needed": "Support from the MEL team to improve report tracking.",
+  "draft_flags": [],
+  "field_flags": {
+    "traffic_light": [
+      "VOCAB_NORMALISED"
+    ],
+    "progress_percent": [
+      "APPROXIMATE"
+    ],
+    "key_success": [
+      "MACHINE_TRANSLATED"
+    ],
+    "key_challenge": [
+      "MACHINE_TRANSLATED"
+    ],
+    "support_needed": [
+      "MACHINE_TRANSLATED"
+    ]
+  }
 }

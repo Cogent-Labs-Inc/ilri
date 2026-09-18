@@ -18,7 +18,7 @@
             "blocking": false
           }
         ],
-        "evidence_quote": "this was for quarter two, by the way",
+        "evidence_quote": "this was for quarter two",
         "original_text": null
       },
       "traffic_light": {
@@ -67,7 +67,7 @@
         "value": "Two of four survey vehicles were down for almost a month, disrupting the household survey schedule.",
         "candidates": [],
         "flags": [],
-        "evidence_quote": "we had two of our four survey vehicles down for almost a month, mechanical problems, and that really messed with our household survey schedule in the Rift Valley sites",
+        "evidence_quote": "the vehicle fleet issue, we had two of our four survey vehicles down for almost a month, mechanical problems, and that really messed with our household survey schedule in the Rift Valley sites",
         "original_text": null
       },
       "support_needed": {
