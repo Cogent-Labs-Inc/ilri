@@ -101,7 +101,7 @@ def test_full_pipeline_on_a_spanish_transcript(monkeypatch):
     """create_draft() end to end (validation -> field decisions -> draft) for a non-English,
     non-French transcript, mirroring what the live model would plausibly extract - offline, like
     every other test here, since this exercises validate_transcript() and the full decision layer,
-    not the live model itself (see results/example_spanish.json for what's separately verified live)."""
+    not the live model itself (data/examples/spanish_update.txt was separately verified live)."""
     report = make_report(
         detected_language="es",
         quarter={"raw_phrase": "segundo trimestre de 2026", "evidence_quote": "informe del segundo trimestre de 2026"},
@@ -159,8 +159,8 @@ SWAHILI_TRANSCRIPT = (
 
 def test_full_pipeline_on_a_swahili_transcript(monkeypatch):
     """Same shape as test_full_pipeline_on_a_spanish_transcript, above, for the fourth language
-    COLOUR_WORDS covers. Report values mirror the actual live run committed at
-    results/example_swahili.json, so this offline regression test tracks real model behaviour."""
+    COLOUR_WORDS covers. Report values mirror an actual live run of data/examples/swahili_update.txt,
+    so this offline regression test tracks real model behaviour."""
     report = make_report(
         detected_language="sw",
         quarter={"raw_phrase": "Robo ya Pili ya 2026", "evidence_quote": "Robo ya Pili ya 2026"},
